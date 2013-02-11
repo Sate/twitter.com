@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="twitter_data.js"></script>
+  <script type="text/javascript" src="twitter_ui.js"></script>
+  <script type="text/javascript" src="moment.js"></script>
+  <script type="text/javascript" src="bootstrap.js"></script>
+</head>
+<body>
+
+<!-- Implement the navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="navbar-inner centered">
+	    <a class="brand" href="#"><img src="img/yarn.svg" class="logoIcon"/>Knitter</a>
+	    <ul class="nav">
+	      	<form class="navbar-form pull-right">
+		  		<button type="submit" class="btn btn-primary">Tweet</button>
+	    	</form>
+	    </ul>
+	  </div>
+	</div>
+	<div class="tweetinput hide">
+		<input id="username" type="text" placeholder="Username"/>
+		<textarea id="newTweetText" placeholder="Knit..."></textarea>
+		<input id="confirmtweet" type="submit" class="btn btn-primary" />
+	</div>
+
+
+<div class="container">
+	<br /><br />
+
+	<div class='hide' id="tweetbox"></div>
+
+
+
+	<a href="#" id="tweetcheck">Check for new tweets</a>
+
+	<div class="modal hide fade">
+		<div class="modal-header">
+    		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    		<h3></h3>
+  		</div>
+  		<div class="modal-body">
+  			<div id="userbox"></div>
+  			<div class="modal-footer">
+    			<a href="#" class="btn">Close</a>
+  			</div>
+		</div>
+    </div>
+
+</div>
+
+<footer class="footer">
+	<p class="rev centered">Some weird footer goes here</p>
+</footer>
+
+</body>
+</html>

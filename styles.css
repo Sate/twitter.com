@@ -1,0 +1,125 @@
+@import url('bootstrap.css');
+
+/* Global styles */
+
+html, body {
+	height: 100%;
+}
+
+body {
+  margin: 0px;
+  background-color: #FDFDFD;
+}
+
+.hide{
+	display:none;
+}
+
+.rev {
+	color: #FDFDFD;
+}
+
+.centered {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Navigation elements */
+
+.navbar {
+	width: 100%;
+	background-color: black;
+	background-image: url('img/low_contrast_linen.png') !important;
+}
+
+.navbar-inner {
+	background-image: url('img/low_contrast_linen.png') !important;
+}
+
+.nav {
+	float: right !important;
+}
+
+.nobreak {
+	display: inline !important;
+}
+
+/* Body content */
+
+.container {
+	width: 800px;
+	min-height: 95%;
+	border-right: 1px solid #222;
+  	border-left: 1px solid #222;
+  	box-shadow: 1px 1px 12px #222;
+}
+
+.footer {
+	height: 5% !important;
+	background-color: #222;
+}
+
+.oneTweetBox {
+	border-top: 1px solid black;
+	padding: 25px;
+	display: block;
+	clear:both;
+}
+
+.userImage {
+	width: 64px;
+	height: 64px;
+}
+
+.datePostedBox{
+	clear: right;
+	text-align: right;
+}
+.col1{
+	float: left;
+	width: 15%;
+	text-align: center;
+}
+.col2 {
+	width: 85%;
+	float: right;
+}
+
+.tweetTextBox {
+
+}
+
+.tweetinput{
+	float: right;
+	position: fixed;
+	left: 1134px;
+	height: auto;
+	top: 42px;
+	width: 234px;
+	padding: 5px;
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+	border: 1px solid #CCC;
+	box-shadow: 1px 4px 12px #222;
+	border-radius: 0 0 5px 5px;
+}
+
+.tweetinput textarea {
+	resize:none;
+	width: 220px;
+}
+
+.tweetinput input {
+	width: 220px;
+}
+
+.logoIcon {
+	height: 16px;
+}
+
+
+
+
+
+
